@@ -6,7 +6,7 @@
         the spicy chicken sandwich
       </h3>
       <pre>
-        BASE_URL: {{ env.BASE_URL }}
+        config: {{ $config }}
       </pre>
     </div>
   </div>
