@@ -2,15 +2,32 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
+      <h3 class="title">
         the spicy chicken sandwich
-      </h1>
+      </h3>
+      <pre>
+        BASE_URL: {{ env.BASE_URL }}
+      </pre>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      env: {
+        test: 'ting',
+        home: process.env.HOME,
+        BASE_URL: process.env.BASE_URL,
+      }
+    }
+  },
+  mounted () {
+    console.log(process.env)
+    console.log(this.env)
+  },
+}
 </script>
 
 <style>
