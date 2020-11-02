@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        thie spicy chicken sandwich
+        the spicy chicken sandwich
       </h1>
     </div>
   </div>
