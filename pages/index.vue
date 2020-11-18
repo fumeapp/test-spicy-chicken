@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        hello everyone
+        still spicy?
       </h3>
       <pre>
         config: {{ $config }}
