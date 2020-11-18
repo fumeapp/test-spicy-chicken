@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        still spicy?
+        very spicy chicken sandwich
       </h3>
       <pre>
         config: {{ $config }}
