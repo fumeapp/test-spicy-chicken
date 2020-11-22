@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        this is custom
+        prod from the laptop
       </h3>
       <pre>
         config: {{ $config }}
