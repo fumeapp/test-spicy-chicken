@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        hello nuxt team from production
+        test from cli
       </h3>
       <pre>
         config: {{ $config }}
