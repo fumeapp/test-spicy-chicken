@@ -35,7 +35,11 @@ export default {
   build: {
   },
 
+  /*
+  ** Runtime Config
+  ** See https://nuxtjs.org/guide/runtime-config/
+  */
   publicRuntimeConfig: {
-    baseUrl: process.env.BASE_URL,
+    API_URL: process.env.API_URL
   },
 }
