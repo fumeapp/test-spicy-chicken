@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        test from cli
+        testing private variables
       </h3>
       <pre>
         config: {{ $config }}
