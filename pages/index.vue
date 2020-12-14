@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        testing private variables
+        testing public and private variables sup
       </h3>
       <pre>
         config: {{ $config }}
@@ -14,18 +14,8 @@
 
 <script>
 export default {
-  data () {
-    return {
-      env: {
-        test: 'ting',
-        home: process.env.HOME,
-        BASE_URL: process.env.BASE_URL,
-      }
-    }
-  },
   mounted () {
-    console.log(process.env)
-    console.log(this.env)
+    console.log(this.$config)
   },
 }
 </script>
