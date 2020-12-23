@@ -41,10 +41,11 @@ export default {
   ** See https://nuxtjs.org/guide/runtime-config/
   */
   publicRuntimeConfig: {
-	  PUBLIC_VAR: process.env.PUBLIC_VAR
+	  API_URL: process.env.API_URL,
+	  PUBLIC_VAR: process.env.PUBLIC_VAR,
   },
   privateRuntimeConfig: {
-	  PRIVATE_VAR: process.env.PRIVATE_VAR
+	  PRIVATE_VAR: process.env.PRIVATE_VAR,
   },
 
 }
