@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        testing public and private variables sup
+        testing discord webhook with more urls
       </h3>
       <pre>
         config: {{ $config }}
