@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        testing discord webhook with more urls take 3
+        testing slack hook take 1
       </h3>
       <pre>
         config: {{ $config }}
