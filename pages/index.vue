@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        testing slack hook take 1
+        testing updated fume cli take 1
       </h3>
       <pre>
         config: {{ $config }}
