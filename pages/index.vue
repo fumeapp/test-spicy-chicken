@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        added nuxtjs/auth
+        test spicy chicken
       </h3>
       <pre>
         config: {{ $config }}
