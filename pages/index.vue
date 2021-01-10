@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        testing updated fume cli take 1
+        added nuxtjs/auth
       </h3>
       <pre>
         config: {{ $config }}
