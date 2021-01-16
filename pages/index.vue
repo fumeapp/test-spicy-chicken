@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h3 class="title">
-        test spicy chicken
+        test6 spicy chicken
       </h3>
       <pre>
         config: {{ $config }}
