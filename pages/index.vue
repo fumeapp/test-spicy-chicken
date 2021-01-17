@@ -5,22 +5,36 @@
       <h3 class="title">
         test spicy chicken
       </h3>
-      <pre>
-        config: {{ $config }}
-      </pre>
+      <h4> runtime config ($config) </h4>
+      <pre v-text="$config" />
+      <h4> sample data from SSR </h4>
+      <pre v-text="employees" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  mounted () {
-    console.log(this.$config)
+  data () {
+    return {
+      employees: [],
+    }
+  },
+  async fetch () {
+    this.employees = (await fetch('http://dummy.restapiexample.com/api/v1/employees')
+      .then(res => res.json())).data
   },
 }
 </script>
 
 <style>
+
+pre {
+  width: 800px;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
