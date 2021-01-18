@@ -7,8 +7,8 @@
       </h3>
       <h4> runtime config ($config) </h4>
       <pre v-text="$config" />
-      <h4> sample data from SSR </h4>
-      <pre v-text="employees.length" />
+      <h4> sample random data from SSR </h4>
+      <pre v-text="random" />
     </div>
   </div>
 </template>
@@ -17,12 +17,12 @@
 export default {
   data () {
     return {
-      employees: [],
+      random: [],
     }
   },
   async fetch () {
-    this.employees = (await fetch('http://dummy.restapiexample.com/api/v1/employees')
-      .then(res => res.json())).data
+    this.random = (await fetch('https://random-data-api.com/api/stripe/random_stripe')
+      .then(res => res.json()))
   },
 }
 </script>
@@ -30,7 +30,7 @@ export default {
 <style>
 
 pre {
-  width: 800px;
+  width: 400px;
   text-align: left;
   margin: auto;
   padding: 10px;
