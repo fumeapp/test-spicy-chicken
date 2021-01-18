@@ -8,7 +8,7 @@
       <h4> runtime config ($config) </h4>
       <pre v-text="$config" />
       <h4> sample data from SSR </h4>
-      <pre v-text="employees" />
+      <pre v-text="employees.length" />
     </div>
   </div>
 </template>
